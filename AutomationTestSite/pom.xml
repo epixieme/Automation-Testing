@@ -3,7 +3,8 @@
   <groupId>AutomationTestPack</groupId>
   <artifactId>AutomationTestSite</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+  <name>MavenJava</name>
+  <url>http://maven.apache.org</url>
   
    <dependencies>
   
@@ -28,6 +29,7 @@
   </dependencies>
   
   <build>
+  <pluginManagement>
   <plugins>
   <plugin>
   <groupId>org.apache.maven.plugins</groupId>
@@ -44,11 +46,12 @@
   <version>2.20</version>
   <configuration>
   <suiteXmlfiles>
-  <suiteXmlfile>testng.xml</suiteXmlfile>
+  <suiteXmlfile>SearchFeatures.xml</suiteXmlfile>
   <!-- <suiteXmlfile>src/main/resources/testng.xml</suiteXmlfile> -->
   </suiteXmlfiles>
    </configuration>
   </plugin>
   </plugins>
+  </pluginManagement>
   </build>
 </project>
