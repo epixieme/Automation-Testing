@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+  <test name="Search Function">
+    <classes>
+    <class name="tests.SearchFunctionValidation">
+	<methods>
+	
+	<include name ="placeholdertext"> </include>
+	
+	<include name="SearchNoCharacters"></include>
+	<include name="InValidCharacters"></include>
+	<include name="ValidCharacters"></include>
+	<exclude name="searchboxmaxcharacters"></exclude>
+	
+	</methods>
+	</class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

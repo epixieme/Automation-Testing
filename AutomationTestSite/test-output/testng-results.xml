@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16693" started-at="2019-05-06T08:43:10Z" finished-at="2019-05-06T08:43:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16693" started-at="2019-05-06T08:43:10Z" finished-at="2019-05-06T08:43:27Z">
+      <class name="tests.SearchFunctionValidation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.SearchFunctionValidation@6093dd95]" name="initialize" is-config="true" duration-ms="10109" started-at="2019-05-06T08:43:10Z" finished-at="2019-05-06T08:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="ValidCharacters()[pri:0, instance:tests.SearchFunctionValidation@6093dd95]" name="ValidCharacters" duration-ms="5738" started-at="2019-05-06T08:43:20Z" finished-at="2019-05-06T08:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidCharacters -->
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:tests.SearchFunctionValidation@6093dd95]" name="TeardownTest" is-config="true" duration-ms="811" started-at="2019-05-06T08:43:26Z" finished-at="2019-05-06T08:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- tests.SearchFunctionValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
