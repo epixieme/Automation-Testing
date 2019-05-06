@@ -14,7 +14,7 @@ import pages.APSearchPage;
 import pages.ApWebsiteLandingpage;
 
  
-public class SearchFunctionValidation extends TestBase {
+public class SearchFunctionValidationTest extends TestBase {
 	
 @Test //verifying the searchbox placeholder text is present and correct
 public void placeholdertext() {

@@ -22,7 +22,7 @@ import pages.ApWebsiteLandingpage;
 
 
  
-public class EmailValidation extends TestBase {
+public class EmailValidationTest extends TestBase {
 	
  @Test //validate the sign in button navigates to the correct page
   public void SignUp() {
