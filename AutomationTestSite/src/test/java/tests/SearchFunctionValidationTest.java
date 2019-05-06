@@ -6,6 +6,8 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
  //import org.testng.asserts.*;
@@ -84,7 +86,7 @@ public void ValidCharacters() {
     WebElement ProductList = SP.Displayedproducts();
     List<WebElement> ProductsDisplayed = ProductList.findElements(By.xpath(".//ul"));
     System.out.println("List size is: " +ProductsDisplayed.size());
-    Assert.assertEquals(ProductsDisplayed, 7);
+    Assert.assertEquals(ProductsDisplayed.size(), 7);
 
 	
  }
@@ -127,8 +129,14 @@ public void searchbuttonclicklimit () {
 	AP.Searchbtn().click();
 	
 	String SearchPgTitle = (driver.getTitle());
+	
+	//wait for title to load
+	WebDriverWait wait = new WebDriverWait(driver, 20);
+	wait.until(ExpectedConditions.titleContains("Search - My Store"));
+	
+	
 	//Then
-		Assert.assertEquals(SearchPgTitle, "Search - My Store");	
+	assertEquals(SearchPgTitle, "Search - My Store");	
 	
 	}
 	

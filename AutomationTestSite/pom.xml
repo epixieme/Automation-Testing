@@ -27,7 +27,9 @@
   <scope>test</scope>
   </dependency>
   </dependencies>
-  
+  <profiles>
+  <profile>
+  <id>EndtoEnd</id>
   <build>
   <pluginManagement>
   <plugins>
@@ -54,4 +56,10 @@
   </plugins>
   </pluginManagement>
   </build>
+  </profile>
+  
+  
+  
+  </profiles>
+  
 </project>

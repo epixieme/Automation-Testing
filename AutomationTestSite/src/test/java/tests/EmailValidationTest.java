@@ -53,7 +53,7 @@ public class EmailValidationTest extends TestBase {
 		EAP.CreateAccount().click();
 		String createaccount = (driver.getTitle());
 		System.out.println(createaccount);
-		assertEquals(createaccount, "CREATE AN ACCOUNT");		
+		assertEquals(createaccount, "Login - My Store");		
  }
  
  @Test
