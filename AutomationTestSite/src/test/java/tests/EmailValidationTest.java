@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 import java.util.Objects;
-//import org.testng.asserts.*;
+
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Pattern;
@@ -24,17 +24,6 @@ import java.util.stream.Stream;
 
 import pages.APEmailAuthenticationPage;
 import pages.ApWebsiteLandingpage;
-
-//import static org.testng.Assert.assertEquals;
-
-//import org.openqa.selenium.By;
-//import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.firefox.FirefoxDriver;
-//import org.openqa.selenium.firefox.FirefoxDriver;
-//import org.openqa.selenium.support.ui.ExpectedConditions;
-//import org.openqa.selenium.support.ui.WebDriverWait;
-//import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.firefox.FirefoxDriver;
 
 
  
