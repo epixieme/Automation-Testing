@@ -177,39 +177,11 @@ public void radioButtonMrSelection() {
 public void radioButtonMrsSelection () {
 	
 	
-	
-	
-	
-}
+	}
 }
  
- 
- /*@Test
- public void MrCheckboxIsSelected() {
-	 //needs to be finished and added to page
-	 ApWebsiteLandingpage AP = new ApWebsiteLandingpage(driver);
-	 AP.EmailSignIn().click();
-	 APEmailAuthenticationPage EAP = new APEmailAuthenticationPage(driver);
-		int random = (int)(Math.random() * 50 + 1);
-		EAP.EmailAddress().sendKeys("testuser" + random + "@gmail.com");
-		String emailvalue = EAP.EmailAddress().getAttribute("value");
-		System.out.println(emailvalue);
-		EAP.CreateAccount().click();
-		boolean checkboxselectedbefore= driver.findElement(By.id("id_gender1")).isSelected();
-		assertTrue(checkboxselectedbefore);
 		
-		driver.findElement(By.id("id_gender1")).click();
-		
-		boolean checkboxselected= driver.findElement(By.id("id_gender1")).isSelected();
-		boolean checkboxenabled = driver.findElement(By.id("id_gender1")).isEnabled();
-		boolean Checkboxdisplayed = driver.findElement(By.id("id_gender1")).isDisplayed();
-		assertTrue(checkboxselected);
-		assertTrue(checkboxenabled);
-		assertTrue(Checkboxdisplayed);
-		
-		
-		
- }*/
+
 		
 		
 		
