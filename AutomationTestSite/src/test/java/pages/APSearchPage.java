@@ -26,7 +26,7 @@ public class APSearchPage {
 	@FindBy(xpath="//span[@class='heading-counter']")
 	WebElement ProductCountresults;
 				
-//Text showing Count of products on page 1 - >1
+//Text showing Count of products on page 
 					
 	@FindBy(xpath="/html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/div[2]/div[1]/div[2]")
 	WebElement ProductCountTxt;

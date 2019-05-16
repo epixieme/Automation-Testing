@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61681" started-at="2019-05-06T11:35:53Z" finished-at="2019-05-06T11:36:55Z">
+  <suite name="Default suite" duration-ms="20462" started-at="2019-05-14T18:31:31Z" finished-at="2019-05-14T18:31:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61681" started-at="2019-05-06T11:35:53Z" finished-at="2019-05-06T11:36:55Z">
-      <class name="tests.SearchFunctionValidationTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.SearchFunctionValidationTest@6093dd95]" name="initialize" is-config="true" duration-ms="19382" started-at="2019-05-06T11:35:53Z" finished-at="2019-05-06T11:36:12Z">
+    <test name="Default test" duration-ms="20462" started-at="2019-05-14T18:31:31Z" finished-at="2019-05-14T18:31:51Z">
+      <class name="tests.EmailValidationTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.EmailValidationTest@6093dd95]" name="initialize" is-config="true" duration-ms="12401" started-at="2019-05-14T18:31:31Z" finished-at="2019-05-14T18:31:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="searchbuttonclicklimit()[pri:0, instance:tests.SearchFunctionValidationTest@6093dd95]" name="searchbuttonclicklimit" duration-ms="40710" started-at="2019-05-06T11:36:12Z" finished-at="2019-05-06T11:36:53Z">
+        <test-method status="PASS" signature="radioButtonMrSelection()[pri:0, instance:tests.EmailValidationTest@6093dd95]" name="radioButtonMrSelection" duration-ms="6937" started-at="2019-05-14T18:31:43Z" finished-at="2019-05-14T18:31:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchbuttonclicklimit -->
-        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:tests.SearchFunctionValidationTest@6093dd95]" name="TeardownTest" is-config="true" duration-ms="1479" started-at="2019-05-06T11:36:53Z" finished-at="2019-05-06T11:36:55Z">
+        </test-method> <!-- radioButtonMrSelection -->
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:tests.EmailValidationTest@6093dd95]" name="TeardownTest" is-config="true" duration-ms="1077" started-at="2019-05-14T18:31:50Z" finished-at="2019-05-14T18:31:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
-      </class> <!-- tests.SearchFunctionValidationTest -->
+      </class> <!-- tests.EmailValidationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

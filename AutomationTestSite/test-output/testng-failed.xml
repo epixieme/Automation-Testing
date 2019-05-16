@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.SearchFunctionValidationTest">
+      <class name="tests.EmailValidationTest">
         <methods>
-          <include name="searchbuttonclicklimit"/>
           <include name="TeardownTest"/>
           <include name="initialize"/>
+          <include name="radioButtonMrSelection"/>
         </methods>
-      </class> <!-- tests.SearchFunctionValidationTest -->
+      </class> <!-- tests.EmailValidationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

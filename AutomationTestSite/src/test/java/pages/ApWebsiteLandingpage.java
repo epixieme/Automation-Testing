@@ -36,6 +36,12 @@ PageFactory.initElements(driver,this);
 		@FindBy (xpath="//*[@class='login']")
 		WebElement EmailSign;
 		
+		
+		//Website Logo locator
+		
+		@FindBy (xpath="//img[@class='logo img-responsive']")
+		WebElement Logo;
+		
 //****Methods to access the webelement from Test Classes***
 	
 		public WebElement Search(){
@@ -53,6 +59,12 @@ PageFactory.initElements(driver,this);
 			return EmailSign;
 		}
 		
+		public WebElement websiteLogo () {
+			
+			return Logo;
+		}
+		
+		//img[@class='logo img-responsive']
 			
 		//could have initalised page factory in each test so would have mitigated using return for accessing the object
 			//could have used a public void method to pass the webdriver operations as below e.g
